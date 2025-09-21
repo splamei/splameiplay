@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SplameiPlay Website
+    url: https://veemo.uk/splameiplay
+    about: The official website page for SplameiPlay
+  - name: SplameiPlay Documentation
+    url: https://splamei.gitbook.io/splameiplay-docs
+    about: The official documentation on SplameiPlay

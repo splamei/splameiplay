@@ -1,0 +1,113 @@
+name: Security Report
+description: Report a major security issue
+title: "Security: "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If the issue is a critical issue, please report it privately to us via email (social.veemo.uk) and only make an issue here if we don't respond within a week
+  - type: textarea
+    id: description
+    attributes:
+      label: What's the issue?
+      description: What is the issue happing in SplameiPlay and how does it affect it's security?
+      placeholder: What went wrong and how does it affect security
+      value: "Some bug description"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: How easy is it to trigger?
+      description: How easy is it for an attacker to trigger the vulnerability?
+      multiple: false
+      options:
+        - Hard
+        - Medium
+        - Easy
+        - Zero-day
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How severe is the issue?
+      description: How dangerous is the vulnerability if exploited?
+      multiple: false
+      options:
+        - Basic
+        - Medium
+        - Severe
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Affected version(s)
+      description: What versions and groups of SplameiPlay did you get the issue to occur on?
+      multiple: true
+      options:
+        - 5.0 Particle
+        - 4.x Bloom
+        - 3.x Albedo
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Affected channel(s)
+      description: What channels does the issue occur on?
+      multiple: true
+      options:
+        - Stable
+        - Beta
+        - Alpha
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Affected device(s)
+      description: When using SplameiPlay, what device(s) have you managed to get the issue to occur on?
+      multiple: true
+      options:
+        - Laptop
+        - Desktop PC
+        - Mini PC
+        - Emulated/Translated Hardware
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: osVersion
+    attributes:
+      label: Affected OS(es)
+      description: What different OS versions or software have you been able to get the issue to occur on?
+      multiple: true
+      options:
+        - Windows 10 or 11
+        - Pre Windows 10 (i.e. 8.x + 7)
+        - Wine (or similar app)
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: debugLog
+    attributes:
+      label: SplameiPlay Log file
+      description: Copy and paste the contents of the log file of SplameiPlay found in your AppData Roaming file. This will always be formatted as code so you don't need backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Once you submit this issue, you agree to our [Code of Conduct](https://github.com/splamei/splameiplay/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to the code of conduct, this was made in good faith and no duplicate exists
+          required: true

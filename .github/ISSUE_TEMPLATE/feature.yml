@@ -1,0 +1,33 @@
+name: Feature Request
+description: Request a wanted feature
+title: "Feature: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure that no-one else has made a duplicate issue. Thanks!
+  - type: textarea
+    id: description
+    attributes:
+      label: What the feature idea?
+      description: Please describe the idea for the feature and why it should be added to SplameiPlay
+      placeholder: How would this feature idea work and be implemented
+      value: "Some bug description"
+    validations:
+      required: true
+  - type: checkboxes
+    id: majorFeature
+    attributes:
+      label: Major feature idea?
+      description: Is this a major feature idea that may be hard to implement?
+      options:
+        - label: This is a major feature idea
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Once you submit this issue, you agree to our [Code of Conduct](https://github.com/splamei/splameiplay/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to the code of conduct, this was made in good faith and no duplicate exists
+          required: true

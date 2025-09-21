@@ -1,0 +1,35 @@
+name: Question
+description: Ask a question
+title: "Question: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Your question
+      description: What's the question you would like to ask?
+      placeholder: Insert your question
+      value: "Some question"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of question
+      description: What is the type of question your asking?
+      options:
+        - General
+        - Technical
+        - Development
+        - Other
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Once you submit this issue, you agree to our [Code of Conduct](https://github.com/splamei/test/blob/main/CODE_OF_CONDUCT.md). 
+      options:
+        - label: I agree to the code of conduct, this was made in good faith and no duplicate exists
+          required: true
