@@ -3,7 +3,7 @@
 SplameiPlay is an app store and update managing app allowing users to install, update and manage projects on your device. SplameiPlay will automatically will update projects installed and allows you to install new projects via the in-app store or through custom project files (`.spinstaller`).
 
 SplameiPlay is not open source so this repository is for reporting bugs, issues and feature requests.
-[Report and issue or suggest a feature here!](https://github.com/splamei/splameiplay/issues/new/choose)
+[Report an issue or suggest a feature here!](https://github.com/splamei/splameiplay/issues/new/choose)
 
 ## Native Projects
 - Bitorpito Deluxe
