@@ -47,6 +47,7 @@ SplameiPlay is not open source so this repository is for reporting bugs, issues 
 | Education | ✅ |
 | S Mode | ❌ |
 | LTSC / IoT | ❌ |
+
 Major issues within this version or edition might be fixed however, most issues will likely not *
 
 ## Extra Information
