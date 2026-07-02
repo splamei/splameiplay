@@ -13,6 +13,8 @@ SplameiPlay is not open source so this repository is for reporting bugs, issues 
 - Nimokion
 - SplameiPlay Studio
 
+With more on their way from us and other developers
+
 ## Supported Files
 - ``.spinstaller``
 - ``.sptheme``
