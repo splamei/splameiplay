@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please only report issues that are caused by SplameiPlay (so no reports for incorrect file config) and that no-one else has made a duplicate issue
+        Please only report issues that are directly caused by SplameiPlay and that no-one else has made a duplicate issue
   - type: textarea
     id: description
     attributes:
@@ -22,9 +22,9 @@ body:
       label: Type of issue
       description: What type of issue is this bug?
       options:
-        - Minor issue (SplameiPlay keeps running)
-        - Temp Major issue (SplameiPlay stops running for a bit)
-        - Major issue (SplameiPlay stops running permenetly)
+        - Minor issue (SplameiPlay keeps running and it doesn't affect its function(s) much)
+        - Temp major issue (SplameiPlay stops running for a bit or it affects its function(s) for a bit)
+        - Major issue (SplameiPlay won't run or function correctly)
       default: 0
     validations:
       required: true
@@ -32,10 +32,10 @@ body:
     id: version
     attributes:
       label: Affected version(s)
-      description: What versions and groups of SplameiPlay did you get the issue to occur on?
+      description: What version(s) of SplameiPlay did you get the issue to occur on?
       multiple: true
       options:
-        - 5.0 Particle
+        - 5.x Particle
         - 4.x Bloom
         - 3.x Albedo
       default: 0
@@ -45,7 +45,7 @@ body:
     id: channel
     attributes:
       label: Affected channel(s)
-      description: What channels does the issue occur on?
+      description: What release channel(s) did you get this issue to occur on?
       multiple: true
       options:
         - Stable
@@ -62,9 +62,10 @@ body:
       multiple: true
       options:
         - Laptop
-        - Dektop PC
+        - Desktop
         - Mini PC
-        - Emulated/Translated Hardware
+        - Phone or tablet
+        - Other
       default: 0
     validations:
       required: true
@@ -76,8 +77,8 @@ body:
       multiple: true
       options:
         - Windows 10 or 11
-        - Pre Windows 10 (i.e 8.x + 7)
-        - Wine (or simular app)
+        - Windows 7, 8 or 8.1
+        - Emulator or translator app
         - Other
       default: 0
     validations:
@@ -86,7 +87,7 @@ body:
     id: debugLog
     attributes:
       label: SplameiPlay Log file
-      description: Copy and paste the contents of the log file of SplameiPlay found in your AppData Roaming file. This will always be formatted as code so you dont need backticks.
+      description: Please paste your SplameiPlay log file here. You can find it in '%UserProfile%\AppData\LocalLow\Splamei\SplameiPlay\Player.log'. Note some of your system specs will be in the log file and your username
       render: shell
   - type: checkboxes
     id: terms
