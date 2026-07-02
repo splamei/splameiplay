@@ -13,7 +13,7 @@ body:
       label: What the feature idea?
       description: Please describe the idea for the feature and why it should be added to SplameiPlay
       placeholder: How would this feature idea work and be implemented
-      value: "Some bug description"
+      value: "Some feature description"
     validations:
       required: true
   - type: checkboxes
@@ -22,7 +22,7 @@ body:
       label: Major feature idea?
       description: Is this a major feature idea that may be hard to implement?
       options:
-        - label: This is a major feature idea
+        - label: This is a major feature idea or/and could be hard to implement
   - type: checkboxes
     id: terms
     attributes:
