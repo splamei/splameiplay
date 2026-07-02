@@ -5,7 +5,7 @@ SplameiPlay is an app store and update managing app allowing users to install, u
 
 SplameiPlay is not open source so this repository is for reporting bugs, issues and feature requests.
 
-[Report an issue or suggest a feature here!](https://github.com/splamei/splameiplay/issues/new/choose)
+[Report an issue or suggest a feature here](https://github.com/splamei/splameiplay/issues/new/choose)
 
 ## Native Projects
 - Dotafib
@@ -48,16 +48,17 @@ SplameiPlay is not open source so this repository is for reporting bugs, issues 
 | S Mode | ❌ |
 | LTSC / IoT | ❌ |
 
-Major issues within this version or edition might be fixed however, most issues will likely not *
+Some issues specific for this version or edition might be fixed however, it's not a guarantee *
 
 ## Extra Information
 
-SplameiPlay is also most likely the first ever VTuber-made app store!
-SplameiPlay currently only supports Windows devices though you may be able to run it through emulators or translators to run on other devices.
+SplameiPlay currently only supports Windows devices though you may be able to run it through emulators or translation layers
 
 ## SplameiPlay Links
 
-Download link: https://veemo.uk/splameiplay
+Main page - https://www.veemo.uk/splameiplay
+
+Download link - https://veemo.uk/splameiplay/download
 
 Twitter - https://twitter.com/splameiplay
 
