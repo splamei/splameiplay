@@ -1,8 +1,14 @@
 blank_issues_enabled: false
 contact_links:
   - name: SplameiPlay Website
-    url: https://veemo.uk/splameiplay
-    about: The official website page for SplameiPlay
+    url: https://www.veemo.uk/splameiplay
+    about: The official webpage for SplameiPlay
   - name: SplameiPlay Documentation
-    url: https://splamei.gitbook.io/splameiplay-docs
-    about: The official documentation on SplameiPlay
+    url: https://docs.veemo.uk/splameiplay
+    about: The official documentation for SplameiPlay
+  - name: Discord server
+    url: https://www.veemo.uk/discord
+    about: The official Discord for Splamei and SplameiPlay
+  - name: Our email
+    url: https://www.veemo.uk/links/email
+    about: Our email address page
