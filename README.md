@@ -7,11 +7,10 @@ SplameiPlay is not open source so this repository is for reporting bugs, issues 
 [Report an issue or suggest a feature here!](https://github.com/splamei/splameiplay/issues/new/choose)
 
 ## Native Projects
-- Bitorpito Deluxe
 - Dotafib
 - Rhythm Plus - Splamei Client
 - Nimokion
-- VWisher
+- SplameiPlay Studio
 
 ## Supported Files
 - ``.spinstaller``
