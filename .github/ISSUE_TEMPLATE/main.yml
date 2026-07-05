@@ -78,6 +78,9 @@ body:
       options:
         - Windows 10 or 11
         - Windows 7, 8 or 8.1
+        - Debian/Ubuntu Linux
+        - Arch Linux
+        - Fedora Linux
         - Emulator or translator app
         - Other
       default: 0
